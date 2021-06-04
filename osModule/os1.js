@@ -1,0 +1,5 @@
+const os=require("os")
+var type=os.type()
+var hostName=os.hostname()
+console.log("type"+type)
+console.log("Hostname="+hostName)
